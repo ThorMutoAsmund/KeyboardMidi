@@ -17,6 +17,9 @@
             <MenuItem Header="_Messages">
                 <MenuItem Name="allNotesOffMenu" Header="All notes off" />
             </MenuItem>
+            <MenuItem Header="_Tools">
+                <MenuItem Name="globalHotkeyMenu" IsCheckable="True" Header="Enable global hotkey (Scroll lock)" />
+            </MenuItem>
         </Menu>
         <Grid>
             <ScrollViewer x:Name="scrollViewer" Padding="5" ScrollChanged="ScrollViewer_ScrollChanged">

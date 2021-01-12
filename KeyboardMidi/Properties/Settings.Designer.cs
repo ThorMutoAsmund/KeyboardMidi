@@ -34,5 +34,17 @@ namespace KeyboardMidi.Properties {
                 this["PreferredOutput"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableGlobalHotkey {
+            get {
+                return ((bool)(this["EnableGlobalHotkey"]));
+            }
+            set {
+                this["EnableGlobalHotkey"] = value;
+            }
+        }
     }
 }
