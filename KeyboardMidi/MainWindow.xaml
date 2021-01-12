@@ -8,11 +8,14 @@
         Title="KeyboardMidi" Height="450" Width="800" KeyDown="MainKeyDown" KeyUp="MainKeyUp">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_File">
+            <MenuItem Name="fileMenu" Header="_File">
                 <MenuItem Name="outputsMenu" Header="Select output" />
                 <MenuItem Name="closeOutputMenu" Header="Close output" />
                 <Separator />
                 <MenuItem Name="exitMenu" Header="Exit" />
+            </MenuItem>
+            <MenuItem Header="_Messages">
+                <MenuItem Name="allNotesOffMenu" Header="All notes off" />
             </MenuItem>
         </Menu>
         <Grid>
